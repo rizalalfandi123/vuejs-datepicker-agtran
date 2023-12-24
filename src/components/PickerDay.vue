@@ -1,7 +1,7 @@
 <template>
   <div
-    v-touch:swipe.right="swipeRightHandler"
-    v-touch:swipe.left="swipeLeftHandler"
+    v-touch:swipe.right="swipeLeftHandler"
+    v-touch:swipe.left="swipeRightHandler"
   >
     <div
       :class="[calendarClass, 'vdp-datepicker__calendar']"
@@ -46,7 +46,7 @@
           ></span> </template
         ><!--
       --><span
-          class="cell day hajwdji"
+          class="cell day agtran-day"
           v-for="day in days"
           :key="day.timestamp"
           :class="dayClasses(day)"
