@@ -476,7 +476,6 @@ export default {
       return typeof prop !== "undefined" && prop;
     },
     swipeLeftHandler() {
-      console.log("ssmkksmmkskm");
       this.previousMonth();
     },
     swipeRightHandler() {

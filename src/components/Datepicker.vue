@@ -106,7 +106,7 @@ import PickerMonth from "./PickerMonth.vue";
 import PickerYear from "./PickerYear.vue";
 import utils, { makeDateUtils } from "../utils/DateUtils";
 
-Vue.use(Vue2TouchEvents);
+Vue.use(Vue2TouchEvents, { tapTolerance: 5, swipeTolerance: 15 });
 
 export default {
   components: {
